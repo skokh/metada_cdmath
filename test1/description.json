@@ -1,4 +1,13 @@
 {
-"data1" : "dumb",
-"data2" : "dumb"
+"Name":"Wave system with pseudostaggered scheme on regular grid",
+"Remark": "New scheme for low Mach flows",
+"PDE model":"Wave system",
+"Numerical method": "Pseudo staggered",
+"Time discretization":{"Implicit":"Yes","preconditioning":"LU","Precision":"1e-5"},
+"PDE time status":{"Stationary":"Yes","Evolution problem":"Stationary search"},
+"Space dimension":2,
+"Mesh dimension":2,
+"Mesh type":{"Unstructured":"Yes","Cell type":"Squares","Number of cells":"400"},
+"Geometry":"Square",
+"Mesh convergence":"No"
 }
