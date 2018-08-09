@@ -28,12 +28,12 @@
 "Numerical_parameter_space_step":1E-5,
 "Simulation_parameter_maximum_time_step":10000,
 "Simulation_parameter_maximum_time":100,
-"Simulation_Output_frequency":100,
-"Simulation_Final_time_after_run":0,
-"Simulation_Final_number_of_time_steps_after_run":0,
+"Simulation_output_frequency":100,
+"Simulation_final_time_after_run":0,
+"Simulation_final_number_of_time_steps_after_run":0,
 "Computational_time_taken_by_run":0,
 "||actual-ref||":0,
-"Linear_system_actual_iterations_number":0,
-"Linear_system_actual_error":0,
-"Linear_system_actual_condition number":0
+"Linear_system_max_actual_iterations_number":0,
+"Linear_system_max_actual_error":0,
+"Linear_system_max_actual_condition number":0
 }
