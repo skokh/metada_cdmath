@@ -1,50 +1,38 @@
 {
-"Name":"Wave system with pseudostaggered scheme on regular grid",
-"Remark": "New scheme for low Mach flows",
-"PDE model":"Wave system",
-"PDE time status":
-    {
-    "Stationary":false,
-    "Evolution problem":"Stationary search"
-    },
-"Numerical method name": "Pseudo staggered",
-"Space discretization":"Finite volumes",
-"Time discretization":
-    {
-    "Implicit":true,
-    "Algorithm":"GMRES",
-    "Preconditioner":"LU",
-    "Maximum iterations":100,
-    "Precision":1E-5
-    },
-"Space dimension":2,
-"Mesh dimension":2,
-"Mesh type":
-    {
-    "Unstructured":true,
-    "Cell type":"Squares",
-    "Element type":"Cells",
-    "Number of elements":400,
-    "Max number of neighbours":0
-    },
+"Global_name":"Wave_system_with_pseudostaggered_scheme_on_regular_grid",
+"Global_comment":"New_scheme_for_low_Mach_flows",
+"PDE_model":"Wave_system",
+"PDE_is_stationary":false,
+"PDE_search_for_stationary_solution":true,
+"Numerical_method_name":"Pseudo_staggered",
+"Numerical_method_space_discretization":"Finite_volumes",
+"Numerical_method_time_discretization_implicit":true,
+"Linear_solver_algorithm":"GMRES",
+"Linear_solver_preconditioner":"LU",
+"Linear_solver_maximum_iterations":100,
+"Linear_solver_precision":1E-5,
+"Mesh_space_dimension":2,
+"Mesh_dimension":2,
+"Mesh_is_unstructured":true,
+"Mesh_cell_type":"Squares",
+"Mesh_element_type":"Cells",
+"Mesh_number_of_elements":400,
+"Mesh_max_number_of_neighbours":0,
 "Geometry":"Square",
-"Boundary conditions":"Periodic",
-"Initial data":"Divergence free",
-"Mesh convergence":true,
-"CFL":0,
-"Time step":1E-5,
-"Space step":1E-5,
-"Maximum time step":10000,
-"Maximum time":100,
-"Output frequency":100,
-"Final time after run":0,
-"Final number of time steps after run":0,
-"Computational time taken by run":0,
+"Boundary_conditions":"Periodic",
+"Initial_data":"Divergence_free",
+"Part_of_mesh_convergence_analysis":true,
+"Numerical_parameter_cfl":0,
+"Numerical_parameter_time_step":1E-5,
+"Numerical_parameter_space_step":1E-5,
+"Simulation_parameter_maximum_time_step":10000,
+"Simulation_parameter_maximum_time":100,
+"Simulation_Output_frequency":100,
+"Simulation_Final_time_after_run":0,
+"Simulation_Final_number_of_time_steps_after_run":0,
+"Computational_time_taken_by_run":0,
 "||actual-ref||":0,
-"Linear system resolution":
-    {
-    "Iterations":0,
-    "error":0,
-    "Condition number":0
-    }
+"Linear_system_actual_iterations_number":0,
+"Linear_system_actual_error":0,
+"Linear_system_actual_condition number":0
 }
