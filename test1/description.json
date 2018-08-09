@@ -15,7 +15,8 @@
     "Algorithm":"GMRES",
     "Preconditioner":"LU",
     "Maximum iterations":100,
-    "Precision":1E-5},
+    "Precision":1E-5
+    },
 "Space dimension":2,
 "Mesh dimension":2,
 "Mesh type":

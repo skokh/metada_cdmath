@@ -1,4 +1,50 @@
 {
-    "data1" : "dumb",
-    "data2" : "dumb"
+"Name":" my favorite heat equation stuff!  ",
+"Remark": "let's solve the heat equation",
+"PDE model":"Heat equation",
+"PDE time status":
+    {
+    "Stationary":false,
+    "Evolution problem":"Stationary search"
+    },
+"Numerical method name": "cc",
+"Space discretization":"Finite volumes",
+"Time discretization":
+    {
+    "Implicit":true,
+    "Algorithm":"GMRES",
+    "Preconditioner":"LU",
+    "Maximum iterations":100,
+    "Precision":1E-5
+    },
+"Space dimension":2,
+"Mesh dimension":2,
+"Mesh type":
+    {
+    "Unstructured":true,
+    "Cell type":"Triangles",
+    "Element type":"Cells",
+    "Number of elements":400,
+    "Max number of neighbours":0
+    },
+"Geometry":"Square",
+"Boundary conditions":"Dirichlet",
+"Initial data":"constant state",
+"Mesh convergence":true,
+"CFL":0.5,
+"Time step":1E-5,
+"Space step":1E-5,
+"Maximum time step":10000,
+"Maximum time":100,
+"Output frequency":100,
+"Final time after run":0,
+"Final number of time steps after run":0,
+"Computational time taken by run":0,
+"||actual-ref||":0,
+"Linear system resolution":
+    {
+    "Iterations":0,
+    "error":0,
+    "Condition number":0
+    }
 }
