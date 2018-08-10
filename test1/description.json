@@ -6,7 +6,7 @@
 "PDE_search_for_stationary_solution":true,
 "Numerical_method_name":"pseudo staggered",
 "Numerical_method_space_discretization":"Finite volumes",
-"Numerical_method_time_discretization_implicit":true,
+"Numerical_method_time_discretization":"Implicit",
 "Linear_solver_algorithm":"GMRES",
 "Linear_solver_preconditioner":"LU",
 "Linear_solver_maximum_iterations":100,
